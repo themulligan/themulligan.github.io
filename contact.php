@@ -20,7 +20,6 @@
 				$msgClass = 'alert-danger';
 			} else {
 				// Passed
-				// $toEmail = 'bmoll70@hotmail.com';
 				$toEmail = 'bryan@slappykrooks.com';
 				$subject = 'Contact Request From '.$name;
 
