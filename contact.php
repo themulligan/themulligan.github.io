@@ -34,8 +34,7 @@
 				$body = 'Contact Request
 					Name: '.$name.'
 					Email: '.$email.'
-					Message: '.$message.'
-				';
+					Message: '.$message.'';
 
 				// Email Headers
 				$headers = "MIME-Version 1.0" ."\r\n";
