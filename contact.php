@@ -104,7 +104,7 @@
 						<li><a href="https://github.com/themulligan"><i class="fab fa-github"></i> Github</a></li>
 					</ul>
 					<p class="desktop-info">
-						For business inquiries, collaboration and general feedback.
+                        Get in touch.  Collaborate.  Leave feedback.
 					</p>
 			</div>
 			<!--  End Company Info -->
@@ -116,23 +116,20 @@
 				<?php endif; ?>
 				<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 					<p class="full">
-						<label>Name</label>
-						<input type="text" name="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
+						<input type="text" name="name" placeholder="NAME" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
 					</p>
 					<p class="full">
-						<label>Email</label>
-						<input type="text" name="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
+						<input type="text" name="email" placeholder="EMAIL" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
 					</p>
 					<p class="full">
-						<label>Message</label>
-						<textarea name="message"><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
-						</p>
+						<textarea name="message" placeholder="MESSAGE"><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
+					</p>
 					<p class="full">
-					<button type="submit" name="submit">Submit</button>
+					    <button type="submit" name="submit">SEND</button>
 					</p>
 				</form>
 			</div>
-			<!-- End Edit Form -->
+			<!-- End Form -->
 		</div>
 	</div>
 	<!-- End Modal -->

@@ -157,14 +157,19 @@ body {
 
 .contact form button, .contact form input, .contact form textarea{
 	width: 100%;
-	padding: 1em;
-	border: 1px solid #bf95f5; /* purple */
+	padding: .6em 1em;
+    border: none;
+	border-bottom: 1px solid #bf95f5; /* purple */
+    background-color: #f2edf7;  /* Very light purple */
 }
 
 .contact form button{
 	background: #bf95f5;  /* purple */
 	border: 0;
-	text-transform: uppercase;
+    width: 30%;
+    float: right;
+    border-radius: 1rem;
+	padding: .5rem;
 }
 
 .contact form button:hover, .contact form button:focus{
@@ -173,6 +178,16 @@ body {
 	outline: 0;
 	transition: background-color 1s ease-out;
 }
+
+/*   Input Text Styles   */
+input[type="text"] {
+	font-size: 1rem;
+}
+
+textarea {
+    font-size: 1rem;
+}
+
 
 .alert{
 	padding: 15px;
